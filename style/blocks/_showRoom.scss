@@ -138,14 +138,14 @@
       }
 
       &:nth-child(1)::before {
-        background-image: url("/img/icons/showRoom__5.png");
+        background-image: url("../img/icons/showRoom__5.png");
         mix-blend-mode: difference;
       }
       &:nth-child(2)::before {
-        background-image: url("/img/icons/showRoom__2.svg");
+        background-image: url("../img/icons/showRoom__2.svg");
       }
       &:nth-child(3)::before {
-        background-image: url("/img/icons/showRoom__6.svg");
+        background-image: url("../img/icons/showRoom__6.svg");
       }
     }
 
@@ -179,11 +179,11 @@
       }
 
       & span:not(:last-child):before {
-        background-image: url("/img/icons/showRoom__2.svg");
+        background-image: url("../img/icons/showRoom__2.svg");
       }
 
       & span:last-child:before {
-        background-image: url("/img/icons/showRoom__3.svg");
+        background-image: url("../img/icons/showRoom__3.svg");
       }
 
       & span:not(:last-of-type) {
@@ -208,7 +208,7 @@
         height: 24px;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url("/img/icons/showRoom__4.svg");
+        background-image: url("../img/icons/showRoom__4.svg");
       }
     }
   }

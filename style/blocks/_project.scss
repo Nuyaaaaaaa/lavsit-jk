@@ -42,13 +42,13 @@
     }
 
     &__button.project-wrap__button--max::before {
-      background-image: url("/img/icons/max.svg");
+      background-image: url("../img/icons/max.svg");
     }
     &__button.project-wrap__button--telegram::before {
-      background-image: url("/img/icons/telegram.svg");
+      background-image: url("../img/icons/telegram.svg");
     }
     &__button.project-wrap__button--whatsapp::before {
-      background-image: url("/img/icons/whatsapp.svg");
+      background-image: url("../img/icons/whatsapp.svg");
     }
 
     &__form {
@@ -118,7 +118,7 @@
         height: 40px;
         background-position: center;
         background-repeat: no-repeat;
-        background-image: url("/img/icons/gallery__1.svg");
+        background-image: url("../img/icons/gallery__1.svg");
         margin-bottom: 12px;
       }
 
@@ -149,7 +149,7 @@
 
     &__button::before {
       content: "";
-      background-image: url("/img/icons/gallery__2.svg");
+      background-image: url("../img/icons/gallery__2.svg");
       width: 24px;
       height: 24px;
       background-position: center;

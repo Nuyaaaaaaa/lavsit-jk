@@ -36,11 +36,11 @@
     }
 
     &__start &__subtitle::before {
-      background-image: url("/img/icons/question__icon1.svg");
+      background-image: url("../img/icons/question__icon1.svg");
     }
 
     &__end &__subtitle::before {
-      background-image: url("/img/icons/question__icon2.svg");
+      background-image: url("../img/icons/question__icon2.svg");
     }
 
     &__start &__list,

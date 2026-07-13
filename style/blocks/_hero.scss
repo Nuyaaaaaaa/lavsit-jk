@@ -37,13 +37,13 @@
       }
 
       &:nth-child(1)::after {
-        background-image: url("/img/icons/hero__icon1.svg");
+        background-image: url("../img/icons/hero__icon1.svg");
       }
       &:nth-child(2)::after {
-        background-image: url("/img/icons/hero__icon2.svg");
+        background-image: url("../img/icons/hero__icon2.svg");
       }
       &:nth-child(3)::after {
-        background-image: url("/img/icons/hero__icon3.svg");
+        background-image: url("../img/icons/hero__icon3.svg");
       }
     }
   }

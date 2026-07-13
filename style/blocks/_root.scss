@@ -43,11 +43,11 @@
     }
 
     &__top:first-child h3::before {
-      background-image: url("/img/icons/root__icon1.svg");
+      background-image: url("../img/icons/root__icon1.svg");
     }
 
     &__top:last-child h3::before {
-      background-image: url("/img/icons/root__icon2.svg");
+      background-image: url("../img/icons/root__icon2.svg");
     }
   }
 
@@ -66,7 +66,7 @@
   &-card__top::after {
     content: "";
     position: absolute;
-    background-image: url("/img/icons/root__icon4.svg");
+    background-image: url("../img/icons/root__icon4.svg");
     background-position: center;
     background-repeat: no-repeat;
     width: 34px;
@@ -101,7 +101,7 @@
 
     &__item::before {
       content: "";
-      background-image: url("/img/icons/root__icon3.svg");
+      background-image: url("../img/icons/root__icon3.svg");
       background-position: center;
       background-repeat: no-repeat;
       width: 24px;
