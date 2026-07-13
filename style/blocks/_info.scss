@@ -25,7 +25,6 @@
       padding: 24px;
     }
 
-
     &__end:has(.info-wrap__button) p {
       margin-bottom: 24px;
     }
@@ -36,6 +35,10 @@
       border: 1px solid var(--black-100);
       backdrop-filter: blur(25px);
       max-inline-size: 200px;
+
+      &:hover {
+        background-color: #2828281a;
+      }
     }
   }
 }

@@ -59,6 +59,10 @@
     font-size: 14px;
     line-height: 16px;
   }
+
+  &:hover {
+    background-color: var(--black-78);
+  }
 }
 
 .paragraph-primary {

@@ -339,7 +339,8 @@ $mobile-360: 360px;
       max-inline-size: 108px;
     }
 
-    &-wrap__end {
+    &-wrap__start {
+      align-items: normal;
     }
     &-slider img {
       min-block-size: 360px;
@@ -363,11 +364,18 @@ $mobile-360: 360px;
       inline-size: 100%;
       max-block-size: 360px;
     }
+
+    &-wrap__button {
+      max-inline-size: 100%;
+    }
   }
 
   .showRoom {
     &-top__end {
       flex-direction: column;
+    }
+    &-bottom__end iframe {
+      height:  450px !important;
     }
   }
 }
