@@ -1,0 +1,67 @@
+.hero {
+  &-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 56px;
+    gap: 24px;
+
+    &__start {
+      max-inline-size: 888px;
+    }
+    
+    &__cards {
+      display: flex;
+      gap: 16px;
+    }
+
+    &__card {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 12px;
+      align-items: center;
+      text-align: center;
+      max-inline-size: 232px;
+
+      &:not(:last-child) {
+        border-right: 1px solid var(--black-24);
+        padding-right: 16px;
+      }
+
+      &::after {
+        content: "";
+        width: 32px;
+        height: 32px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      &:nth-child(1)::after {
+        background-image: url("/img/icons/hero__icon1.svg");
+      }
+      &:nth-child(2)::after {
+        background-image: url("/img/icons/hero__icon2.svg");
+      }
+      &:nth-child(3)::after {
+        background-image: url("/img/icons/hero__icon3.svg");
+      }
+    }
+  }
+  &-buttons {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+    & button {
+      inline-size: 100%;
+      max-inline-size: 328px;
+    }
+
+    &__button {
+      background-color: var(--beige);
+      border-radius: 8px;
+      padding: 14px 16px;
+      color: var(--black-100);
+    }
+  }
+}
